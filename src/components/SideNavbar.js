@@ -9,6 +9,7 @@ import { MdSpeakerNotes } from 'react-icons/md'
 import { ImCross } from 'react-icons/im'
 import { FaDatabase } from 'react-icons/fa'
 import TopNavbar from './TopNavbar'
+import Dashboard from './Dashboard'
 
 function SideNavbar() {
 
@@ -106,6 +107,7 @@ function SideNavbar() {
             <span className="text">Drop Down Sidebar</span> */}
                 <TopNavbar menu={<AiOutlineMenu className='menu'  />} />
             </div>
+            <Dashboard />
         </section>
         </>
     )
